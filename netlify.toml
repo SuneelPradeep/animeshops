@@ -1,21 +1,20 @@
 [build]
   base = "/"
   publish = "client/build"
-  command = "npm install && npm run build --prefix client && npm install --prefix server"
+  command = "cd client && npm install && npm run build && cd ../server && npm install"
 
 [functions]
   directory = "server/netlify/functions"
 
+[[redirects]]
+  from = "/api"
+  to = "/.netlify/functions/api"
+  status = 200
+
+[[redirects]]
+  from = "/api/products"
+  to = "/.netlify/functions/products"
+  status = 200
 
 [context.deploy-preview]
-  command = "npm install && npm run build --prefix client"
-  
-[[redirects]]
-from = "/api"
-to = "/.netlify/functions/api"
-status = 200
-
-[[redirects]]
-from = "/api/products"
-to = "/.netlify/functions/products"
-status = 200
+  command = "cd client && npm install && npm run build && cd ../server && npm install"
