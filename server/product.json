@@ -1,0 +1,136 @@
+[
+    {
+     
+      "name": "Tanjiro Kamado slay shirt",
+      "company": "Demon Slayer",
+      "price":49000,
+      "stock":5,
+      "reviews": 50,
+       "stars": 4.8,
+      "featured": true,
+      "de" : "The Hashira ( 柱 はしら , Hashira?, lit. Pillars) are the most powerful swordsmasters in the Demon Slayer Corps. As such, they are the organization's top-ranking, most elite soldiers who each serve a pivotal role in their war against Muzan Kibutsuji along with the Twelve Kizuki.",
+      "aimage": "https://i.pinimg.com/750x/9c/31/67/9c316716e26ea58dc5146f88d849596f.jpg",
+      "image": [{"id": 1,"width":1080,"height":650,"filename":"demon1.jpg","size":1080,"type":"image/jpg","url": "https://i.pinimg.com/750x/9c/31/67/9c316716e26ea58dc5146f88d849596f.jpg"},
+      {"id": 2,"width":1080,"height":650,"filename":"demon2.jpg","size":1080,"type":"image/jpg","url":"https://i.pinimg.com/750x/c5/b7/4f/c5b74f11642ef1876d9ac1865685ea6e.jpg"},
+      {"id": 3,"width":1080,"height":650,"filename":"demon3.jpg","size":1080,"type":"image/jpg","url": "https://i.pinimg.com/750x/f2/88/bd/f288bd6d12cd704cf5f349fbaac55629.jpg"},
+      {"id": 4,"width":1080,"height":650,"filename":"demon4.jpg","size":1080,"type":"image/jpg","url": "https://i.pinimg.com/750x/4d/ea/4d/4dea4db93c2c2b8f5625230e55d2c8f1.jpg"}
+     
+        ],
+    "colors":["#ff0000", "#000000","#CDD0D0" ],
+    "category" : "T-Shirt"
+       
+      
+    },
+    {
+       
+        "name": "Dragon Ball Super MUI Goku and UE Vegeta",
+        "company": "Dragon Ball Super",
+        "category" : "T-Shirt",
+        "price":40000,
+        "stock":3,
+      "reviews": 80,
+       "stars": 5.0,
+        "featured": true,
+        "description" : "A midquel to Toriyama's original Dragon Ball manga, it follows the adventures of Goku and friends during the ten-year timeskip after the defeat of Majin Buu.",
+         "aimage": "https://i.pinimg.com/736x/30/fc/61/30fc614a7c5deef09c54d26879357a3d.jpg",
+         "image": [{"id": 1,"width":1080,"height":650,"filename":"dbs1.jpg","size":1080,"type":"image/jpg", "url":"https://i.pinimg.com/736x/30/fc/61/30fc614a7c5deef09c54d26879357a3d.jpg"},
+         {"id": 2,"width":1080,"height":650,"filename":"dbs2.jpg","size":1080,"type":"image/jpg", "url":"https://i.pinimg.com/736x/7e/da/5b/7eda5bec7910618d10c7031de95dd5df.jpg"},
+         {"id": 3,"width":1080,"height":650,"filename":"dbs3.jpg","size":1080,"type":"image/jpg", "url":"https://i.pinimg.com/736x/e8/5d/34/e85d34b3a08852f40ab2e2211880bdc0.jpg"},
+         {"id": 4,"width":1080,"height":650,"filename":"dbs4.jpg","size":1080,"type":"image/jpg","url":"https://i.pinimg.com/736x/7c/8e/5c/7c8e5c6f06d5af94a4f3f5f33a0eafed.jpg"}],
+         "colors":["#ff0000", "#000000","#CDD0D0" ]
+         
+    },
+    {
+        
+        "name": "Brothers Alward Elrich and Alphonse Elrich",
+        "company": "FullMetal Alchemist: BrotherHood",
+        "price":45000,
+        "stock":10,
+       "reviews": 30,
+        "stars": 4.2,
+        "category" : "T-Shirt",
+        "featured": false,
+        "description" : "Abandoned by their father as kids, two young brothers, Edward and Alphonse Elric lived with their mother in a small town called Resembool. After losing their mother to a terminal illness, they try to resurrect her using alchemy - a science which allows you to transform physical matter from one form to another.",
+        "aimage": "https://i.pinimg.com/736x/ee/13/ec/ee13ec94ff807c47cbd1cba73b722545.jpg",
+        "image": [{"id": 1,"width":1080,"height":650,"filename":"fmab1.jpg","size":1080,"type":"image/jpg","url":"https://i.pinimg.com/736x/ee/13/ec/ee13ec94ff807c47cbd1cba73b722545.jpg"},
+        {"id": 2,"width":1080,"height":650,"filename":"fmab2.jpg","size":1080,"type":"image/jpg","url":"https://i.pinimg.com/736x/b7/f3/2b/b7f32b55add855a56cd108833f233589.jpg"},
+        {"id": 3,"width":1080,"height":650,"filename":"fmab3.jpg","size":1080,"type":"image/jpg","url":"https://i.pinimg.com/736x/ae/c2/1d/aec21d1bb47793f616f216d1d25d08a6.jpg"},
+        {"id": 4,"width":1080,"height":650,"filename":"fmab4.jpg","size":1080,"type":"image/jpg","url":"https://i.pinimg.com/736x/8f/f7/da/8ff7da4cd8942d2172ee86c636ffcf26.jpg"} ],
+        "colors":["#ff0000", "#000000","#CDD0D0" ]
+        
+    },
+    {
+        
+        "name": "Attack on Titan all 9 Titans",
+        "company": "Attack of the Titan",
+        "price":55000,
+        "stock":6,
+        "reviews": 120,
+       "stars": 4.6,
+        "category" : "SweatShirt",
+        "featured": true,
+        "description" : "Attack on Titan is written and illustrated by Hajime Isayama. The series began in the first-ever issue of Kodansha's monthly publication Bessatsu Shōnen Magazine, released on September 9, 2009. The manga was finished after an eleven-year publication run with the release of its 139th chapter on April 9, 2021.",
+         "aimage": "https://i.pinimg.com/564x/cf/53/22/cf5322e19a5bf8766b24197de4c7f61a.jpg",
+         "image": [{"id": 1,"width":1080,"height":650,"filename":"aot1","size":1080,"type":"image/jpg","url":"https://i.pinimg.com/564x/cf/53/22/cf5322e19a5bf8766b24197de4c7f61a.jpg"},
+         {"id": 2,"width":1080,"height":650,"filename":"aot2","size":1080,"type":"image/jpg","url":"https://i.pinimg.com/564x/7b/d6/a8/7bd6a89a7765a39dddcbdefb5f9187a0.jpg"},
+         {"id": 3,"width":1080,"height":650,"filename":"aot3","size":1080,"type":"image/jpg","url":"https://i.pinimg.com/564x/f9/73/7a/f9737abd4430925fa1f5c9742f19eaae.jpg"},
+         {"id": 4,"width":1080,"height":650,"filename":"aot4","size":1080,"type":"image/jpg","url":"https://i.pinimg.com/564x/26/ba/43/26ba430c1590614452be297b0d2878a5.jpg"}],
+         "colors":["#ff0000", "#000000","#CDD0D0" ]
+         
+    },
+    {
+        
+        "name": "CowBoy Beebop",
+        "company": "Cowboy Beebop",
+        "price":25000,
+        "stock":5,
+        "reviews": 20,
+        "category":"portrait",
+       "stars": 4.6,
+        "featured": false,
+        "description" : "Set in 2071, in a post-apocalyptic world where Earth has become largely uninhabitable, the story follows a ragtag group of bounty hunters, known as cowboys, aboard the spaceship “Bebop.” As they traverse planets and moons in search of wanted fugitives, each cowboy contends with shadows from the past they can't outrun.",
+         "aimage": "https://c4.wallpaperflare.com/wallpaper/159/149/68/anime-cowboy-bebop-spike-spiegel-smoking-wallpaper-preview.jpg",
+         "image": [{"id": 1,"width":1080,"height":650,"filename":"cb1","size":1080,"type":"image/jpg","url":"https://c4.wallpaperflare.com/wallpaper/159/149/68/anime-cowboy-bebop-spike-spiegel-smoking-wallpaper-preview.jpg"},
+         {"id": 2,"width":1080,"height":650,"filename":"cb2","size":1080,"type":"image/jpg","url":"https://i.pinimg.com/736x/d3/ac/6d/d3ac6dc9e403abba8d8d5346e987890f.jpg"},
+           {"id": 3,"width":1080,"height":650,"filename":"cb3","size":1080,"type":"image/jpg","url":"https://wallpapers.com/images/featured/h172ae39z58invy1.jpg"},
+           {"id": 4,"width":1080,"height":650,"filename":"cb4","size":1080,"type":"image/jpg","url":"https://www.pixelstalk.net/wp-content/uploads/images6/Cowboy-Bebop-Wallpaper-HD-Free-download.jpg"} ]
+     
+    },
+    {
+        
+        "name": "Arcane",
+        "company": "Arcane",
+        "price":45000,
+        "category":"portrait",
+        "stock":20,
+        "reviews": 80,
+       "stars": 4.9,
+        "featured": false,
+        "description" : "Set in Riot's League of Legends fictional universe, it primarily focuses on sisters Vi and Jinx. The series was announced at the League of Legends 10th anniversary celebration in 2019, and first released in November 2021.", 
+        "aimage": "https://images6.alphacoders.com/118/1188254.jpg",
+        "image": [{"id": 1,"width":1080,"height":650,"filename":"arc1","size":1080,"type":"image/jpg","url":"https://images6.alphacoders.com/118/1188254.jpg"},
+        {"id": 2,"width":1080,"height":650,"filename":"arc2","size":1080,"type":"image/jpg","url":"https://c4.wallpaperflare.com/wallpaper/304/507/770/league-of-legends-arcane-jinx-league-of-legends-hd-wallpaper-preview.jpg"},
+        
+        {"id": 3,"width":1080,"height":650,"filename":"arc3","size":1080,"type":"image/jpg","url":"https://w0.peakpx.com/wallpaper/386/717/HD-wallpaper-jinx-and-vi-league-of-legends-arcane-8k.jpg"} ]
+       
+    },
+    {
+       
+        "name": "Hunter x Hunter",
+        "company": "Hunter x Hunter",
+        "price":35000,
+        "category":"potrait",
+        "stock":6,
+        "reviews": 10,
+       "stars": 4.3,
+        "featured": false,
+        "description" : "The story focuses on a young boy named Gon Freecss who discovers that his father, who left him at a young age, is actually a world-renowned Hunter, a licensed professional who specializes in fantastical pursuits such as locating rare or unidentified animal species, treasure hunting, surveying unexplored enclaves",
+        "image": [{"id": 1,"width":1080,"height":650,"filename":"hxh1","size":1080,"type":"image/jpg","url":"https://wallpapers.com/images/featured/6l28uunxtr53l0un.jpg"},
+        {"id": 2,"width":1080,"height":650,"filename":"hxh2","size":1080,"type":"image/jpg","url":"https://c4.wallpaperflare.com/wallpaper/407/125/82/anime-hunter-x-hunter-wallpaper-preview.jpg"},
+        {"id": 3,"width":1080,"height":650,"filename":"hxh3","size":1080,"type":"image/jpg","url":"https://c4.wallpaperflare.com/wallpaper/410/178/349/anime-hunter-x-hunter-gon-css-killua-zoldyck-hd-wallpaper-preview.jpg"},
+         {"id": 4,"width":1080,"height":650,"filename":"hxh4","size":1080,"type":"image/jpg","url":"https://wallpaperaccess.com/full/1078967.jpg"}],
+        
+        "aimage": "https://wallpapers.com/images/featured/6l28uunxtr53l0un.jpg"
+        
+    }
+]

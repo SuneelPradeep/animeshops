@@ -1,0 +1,12 @@
+[build]
+functions = "functions"
+
+[[redirects]]
+from = "/api"
+to = "/.netlify/functions/api"
+status = 200
+
+[[redirects]]
+from = "/api/products"
+to = "/.netlify/functions/products"
+status = 200
