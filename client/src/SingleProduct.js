@@ -1,6 +1,6 @@
 import styled from "styled-components";
 import { useProductContext } from "./context/productcontext";
-import { useEffect } from "react";
+import { useEffect,useRef } from "react";
 import { useParams } from "react-router-dom";
 import { PageNavigation } from "./components/PageNavigation";
 import {Container} from './styles/Container';
@@ -22,14 +22,19 @@ const SingleProduct= ()=>{
   //  const {id: alias,image,rating,stars, reviews,name,company, description,category,price,stock} = singleProduct;
   const {image,stars, reviews,name,company, description,price,stock} = singleProduct;
    //console.log('singleProduct is',singleProduct,id ,image,rating,stars);
- 
+   const hasRun = useRef(false);
   
    useEffect(() => {
+    
+    // console.log('entered here',id);
+    if(hasRun.current) { return;}
+    
     if (id !== undefined && id !== null) {
         let ids = id.replace(':', '');
         getSingleProduct(`${API}?_id=${ids}`);
     }
-}, [getSingleProduct, id]);
+    hasRun.current= true;
+}, []);
  
    if(isSingleLoading){
     return <div className="page_loading"
