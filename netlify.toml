@@ -18,3 +18,8 @@
 
 [context.deploy-preview]
   command = "cd client && npm install && npm run build && cd ../server && npm install"
+
+  [[redirects]]
+  from = "/*"
+  to = "client/public/index.html"
+  status = 200

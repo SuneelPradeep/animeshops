@@ -33,7 +33,6 @@ const App = ()=>{
     }
   }
 
-                                                         //earlier it was /singleproduct/:id
     return (
       <ThemeProvider theme={theme}>
        
@@ -55,7 +54,6 @@ const App = ()=>{
       </Router>
              
       </ThemeProvider>
-      // <div> HI ecommerce website here </div>
     )
 }
 
