@@ -34,6 +34,7 @@ const SingleProduct= ()=>{
         getSingleProduct(`${API}?_id=${ids}`);
     }
     hasRun.current= true;
+    // eslint-disable-next-line react-hooks/exhaustive-deps
 }, []);
  
    if(isSingleLoading){
