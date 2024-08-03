@@ -1,6 +1,12 @@
 [build]
-functions = "functions"
+  base = "/"
+  publish = "client/build"
+  command = "npm install && npm run build --prefix client"
 
+[functions]
+  directory = "server/netlify/functions"
+
+  
 [[redirects]]
 from = "/api"
 to = "/.netlify/functions/api"
