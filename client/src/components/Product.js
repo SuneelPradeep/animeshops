@@ -4,9 +4,8 @@ import CurrencyFormat from '../helpers/CurrencyFormat';
 
 const Product = ({data}) => {
     
-    const {_id: id,name,price,category,image,aimage} = data;
-    ////console.log('the id in productjs is',id,data,aimage);
-         // befoer it was  <NavLink to={`/singleproduct/${id}`}>
+    const {_id: id,name,price,category,aimage} = data;
+    // befoer it was  <NavLink to={`/singleproduct/${id}`}>
   return ( 
     <NavLink to={`/singleproduct/:${id}`}>
     <div className='card'>

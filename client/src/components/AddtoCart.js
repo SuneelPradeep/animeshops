@@ -9,8 +9,7 @@ import { useCartContext } from '../context/cart_context'
 
 const AddtoCart = ({product}) => {
     const {_id : id,colors,stock} = product
-    const {AddToCart, cart} = useCartContext();
-   //console.log('the product in cart is xxxxxxxxxxx',id, colors,stock ,product ); 
+    const {AddToCart} = useCartContext();
     const [usecolor,setusecolor] = useState(colors[0] ? colors[0] : '');
     const [amount, setamount] = useState(1);
 

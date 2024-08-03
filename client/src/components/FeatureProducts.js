@@ -1,38 +1,20 @@
-import React, { useEffect, useRef } from 'react'
+import React from 'react'
 import { useProductContext } from '../context/productcontext'
-import { useInView } from 'react-intersection-observer';
 import styled from 'styled-components'
 import Product from './Product'
 
 const FeatureProducts = () => {
 
  const {isLoading, featuredProducts} = useProductContext()
-//  const boxRef = useRef(null);
-  const {ref : boxRef, inView : boxvis, entry : boxentry} = useInView({
-    triggerOnce: true,
-    rootMargin: '50px 0px',
-  })
-  console.log('boxvis is',boxvis);
-  // useEffect(() => {
-  //   const observer = new IntersectionObserver(entries => {
-  //     entries.forEach(entry => {
-  //       if (entry.isIntersecting) {
-  //         entry.target.style.transform = 'translateY(-20px)';
-  //       }
-  //     });
-  //   });
-  //   observer.observe(boxRef.current);
-  //   // return () => {
-  //   //   observer.unobserve(boxRef.current);
-  //   // };
-  // }, []);
+  
+ 
   
 if(isLoading){
     <div> ........Loading </div>
 }
 return (
-    <Wrapper ref={boxRef}>
-        <div className={`${boxvis ? 'animate' : ''}`} > 
+    <Wrapper >
+        <div  > 
             <div className='container'>
                 <div className='intro-data'>
                     Check Now

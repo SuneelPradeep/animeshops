@@ -74,16 +74,10 @@ const  FilterReducer = (state,action)=>{
                 else {
                     tempdatas =  tempdatas.filter((ele)=> ele.price <= price)
                 }
-                ////console.log('final',{...state, filter_products: tempdatas});
-               
-                
-                
                 return {...state, filter_products: tempdatas}
             case "CLEAR_FILTER" :
-                ////console.log('intial',action.payload);
-                let data = action.payload;
-                data = {...data, price : state.filters.maxPrice,  maxPrice :state.filters.maxPrice}
-                return {...state, filters: data}
+                // let data = action.payload;
+                // data = {...data, price : state.filters.maxPrice,  maxPrice :state.filters.maxPrice}
                 return {...state, filters : { text: '',
                 company :'All',
                 category : 'All',
@@ -91,8 +85,9 @@ const  FilterReducer = (state,action)=>{
                 maxPrice : state.filters.maxPrice,
                 price : state.filters.maxPrice,
                 minPrice : state.filters.minPrice}}
-            default: 
-        return state;
+            
+        default:
+            return state;
      }
    
 }
