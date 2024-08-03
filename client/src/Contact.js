@@ -16,19 +16,27 @@ const Contact = () => {
     
    });
 
- const handleSubmit = async (e)=>{
-  
-      e.preventDefault();
-      const datas = await fetch('https://formspree.io/f/mqkowdlz', {
-        method: 'POST',
-        body: JSON.stringify(data),
-        headers: {
-          'Content-Type': 'application/json'
-        },
-      })
-     
-      
- }
+   const handleSubmit = async (e) => {
+    e.preventDefault();
+    
+    try {
+        const response = await fetch('https://formspree.io/f/mqkowdlz', {
+            method: 'POST',
+            body: JSON.stringify(data),
+            headers: {
+                'Content-Type': 'application/json'
+            },
+        });
+
+        if (!response.ok) {
+            throw new Error('Network response was not ok');
+        }
+        await response.json();
+    } catch (error) {
+        console.error('Error:', error);
+    }
+};
+
   
  
   return (

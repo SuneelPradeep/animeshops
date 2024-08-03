@@ -8,7 +8,7 @@ import MyImage from './components/MyImage'
 import CurrencyFormat from "./helpers/CurrencyFormat";
 import { TbTruckDelivery, TbReplace } from "react-icons/tb";
 import { MdSecurity } from "react-icons/md";
-import {GlobalStyle } from './GlobalStyle'
+// import {GlobalStyle } from './GlobalStyle'
 import Star from "./components/Star";
 import AddtoCart from "./components/AddtoCart";
 
@@ -19,19 +19,17 @@ const SingleProduct= ()=>{
     const {id}  = useParams();
   ////console.log('the _id in singleproduct is ', id);
    const {isSingleLoading,getSingleProduct,singleProduct} = useProductContext();
-   const {id: alias,image,rating,stars, reviews,name,company, description,category,price,stock} = singleProduct;
+  //  const {id: alias,image,rating,stars, reviews,name,company, description,category,price,stock} = singleProduct;
+  const {image,stars, reviews,name,company, description,price,stock} = singleProduct;
    //console.log('singleProduct is',singleProduct,id ,image,rating,stars);
  
   
- useEffect(()=>{
-
-      // getSingleProduct(`${API}?id=${id}`)
- if(id !==undefined || id !==null) 
-      {
-      let ids = id.replace(':','') 
-      getSingleProduct(`${API}?_id=${ids}`) 
-      }
-  },[])
+   useEffect(() => {
+    if (id !== undefined && id !== null) {
+        let ids = id.replace(':', '');
+        getSingleProduct(`${API}?_id=${ids}`);
+    }
+}, [getSingleProduct, id]);
  
    if(isSingleLoading){
     return <div className="page_loading"

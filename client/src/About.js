@@ -1,6 +1,6 @@
-import React, { useContext } from 'react'
+import React from 'react'
 import MainSection from './components/MainSection'
-import { AppContext, useProductContext } from './context/productcontext'
+// import { AppContext, useProductContext } from './context/productcontext'
 
 const About = () => {
 
