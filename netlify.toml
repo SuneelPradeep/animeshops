@@ -1,11 +1,14 @@
 [build]
   base = "/"
   publish = "client/build"
-  command = "npm install && npm run build --prefix client"
+  command = "npm install && npm run build --prefix client && npm install --prefix server"
 
 [functions]
   directory = "server/netlify/functions"
 
+
+[context.deploy-preview]
+  command = "npm install && npm run build --prefix client"
   
 [[redirects]]
 from = "/api"
