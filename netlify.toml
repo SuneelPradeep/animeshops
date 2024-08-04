@@ -16,5 +16,10 @@
   to = "/.netlify/functions/products"
   status = 200
 
+[[redirects]]
+from ="/*"
+to = "index.html"
+status = 200
+
 [context.deploy-preview]
   command = "cd client && npm install && npm run build && cd ../server && npm install"
