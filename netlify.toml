@@ -4,7 +4,7 @@
   command = "cd client && npm install && npm run build && cd ../server && npm install"
 
 [functions]
-  directory = "server/netlify/functions"
+  directory = "/server/netlify/functions"
 
 [[redirects]]
   from = "/api"
