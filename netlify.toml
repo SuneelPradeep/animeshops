@@ -7,13 +7,8 @@
   directory = "server/netlify/functions"
 
 [[redirects]]
-  from = "/api"
-  to = "/.netlify/functions/api"
-  status = 200
-
-[[redirects]]
-  from = "/api/products"
-  to = "/.netlify/functions/products"
+  from = "/api/*"
+  to = "/.netlify/functions/:splat"
   status = 200
 
 [context.deploy-preview]

@@ -13,6 +13,8 @@ const AppContext = createContext();
 
 // const api = "http://localhost:5000/api/products/"; 
 const api = process.env.REACT_APP_API_URL
+console.log('the api is',api)
+
 const initialValue = {
   isLoading :false,
   isError: false,
@@ -26,7 +28,7 @@ const AppProvider = ( { children }) => {
 
   const [state,dispatch] = useReducer(reducer,initialValue);
 
- 
+  console.log('state is',state)
   const getProducts = async (url)=>{
     dispatch({type : 'API_LOADING'})
    try {
