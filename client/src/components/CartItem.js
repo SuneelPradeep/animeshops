@@ -23,7 +23,7 @@ const setIncrease = (id,str)=>{
      <div><figure> <img src={image} alt={name} /></figure></div>
      <div>
      <p> {name}</p>
-     <div className='color-div'> 
+     <div className='color-div'>  
         <p>color :</p>
         
      <div className='color-style' style={{backgroundColor : `${color}`,color:color}}> </div>
@@ -33,7 +33,7 @@ const setIncrease = (id,str)=>{
       <div className='cart-hide'> <p> <CurrencyFormat  price={price} /></p></div>
       <CartToToggle amount={amount} setIncrease={()=>setIncrease(id,'+')} setDecrease={()=>setDecrease(id,'-')}  />
       <div className='cart-hide'> 
-       <CurrencyFormat price={price*amount}  />
+       <p><CurrencyFormat price={price*amount}  /></p>
       </div>
       <div><FaTrash className='remove_icon' onClick={()=>removeItem(id)}/></div>
 

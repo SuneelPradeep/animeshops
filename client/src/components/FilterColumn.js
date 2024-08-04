@@ -52,7 +52,7 @@ const FilterColumn = () => {
                <select onClick={updatedFilterValue} name='company' >
                {companyData.map((ele,id)=>{
                 return (
-                  <option key={id} value={ele} >{ele}</option>
+                  <option key={id} value={ele} ><p>{ele}</p></option>
                 )
                })}
                 
