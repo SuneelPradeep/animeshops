@@ -15,6 +15,7 @@ app.use((req, res, next) => {
 const start = async()=>{
     try {
         await connectDB(); 
+        console.log('db connected in serverless')
         app.listen(PORT, (req,res)=>{
           console.log( `yes connected to DB`) 
         })
