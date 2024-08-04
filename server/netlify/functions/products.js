@@ -7,8 +7,7 @@ const ProductsModel = require('../../models/product');
 exports.handler = async (event, context) => {
     try {
         await connectDB();
-        console.log('DB connected in serverless');
-
+        
         // Parse query parameters from event
         const query = event.queryStringParameters || {}; 
         const { _id, company, name, featured, sort, select, page, limit } = query;

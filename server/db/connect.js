@@ -4,8 +4,7 @@ const mongoose = require('mongoose')
 // "mongodb+srv://Suneel:SuperSolomon@mydata.jh422jz.mongodb.net/?retryWrites=true&w=majority"
 
 const connectDB = ()=>{
-   console.log('reached here,connect DB',process.env.MONGODB_URL)
-    return mongoose.connect(process.env.MONGODB_URL)
+   return mongoose.connect(process.env.MONGODB_URL)
 }
 
 
