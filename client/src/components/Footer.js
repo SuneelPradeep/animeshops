@@ -33,7 +33,7 @@ const Footer = ( ) => {
     <div className='footer-subscribe'>
       <h3> Subscribe to get important updates  </h3> 
       <form onSubmit={(e)=> {e.preventDefault(); window.location.href = `mailto:${e.target.email.value}`}}>
-      <input type='mail' placeholder='Your Mail' name='mail' style={{marginBottom:'0.5rem'}} autoComplete='off'/>
+      <input type='mail' placeholder='Your Mail' name='mail' style={{marginBottom:'0.5rem',outline:'none'}} autoComplete='off'/>
       <Button > Subscribe</Button>
       </form>
   
@@ -48,7 +48,7 @@ const Footer = ( ) => {
     </div>
     <div className='footer-contact'>
        <h3> Call us  </h3> 
-       <div style={{padding:"0.6rem 0.5rem 1rem 1rem",width:'4rem',borderRadius:"50%",border:"2px solid #fff"}}><a href='tel:+918595334669'><FaPhone alt='instagram' className='icons' /></a></div>
+       <div style={{paddingTop:'1rem'}}><a href='tel:+918595334669'><span style={{fontSize:'2.2rem',padding:'1rem',marginTop:'1rem',border:'2px solid white',borderRadius:'50%'}}><FaPhone alt='instagram'  className='icons' /></span></a></div>
         {/* <a href="tel:+918595334669" style={{textDecoration:'none',fontSize:'1rem'}}> +918595334669 </a> */}
     </div>
     </div>
@@ -104,7 +104,7 @@ const Wrapper = styled.section`
       color: blue;
       gap: 2rem;
       div {
-        padding: 0.6rem 0.5rem 1rem 1rem;
+       padding : 1rem;
         border-radius: 50%;
         border: 2px solid #fff ${({ theme }) => theme.colors.white};
         .icons {

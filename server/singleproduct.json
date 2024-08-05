@@ -76,7 +76,7 @@
         "name": "CowBoy Beebop",
         "company": "Cowboy Beebop",
         "price":2500,
-        "category":"potrait",
+        "category":"portrait",
         "stock":5,
         "reviews": 20,
        "stars": 4.6,
@@ -92,7 +92,7 @@
         
         "name": "Arcane",
         "company": "Arcane",
-        "category":"potrait",
+        "category":"portrait",
         "price":4500,
         "stock":20,
         "reviews": 80,
@@ -109,7 +109,7 @@
         
         "name": "Hunter x Hunter",
         "company": "Hunter x Hunter",
-        "category":"potrait",
+        "category":"portrait",
         "price":3500,
         "stock":6,
         "reviews": 10,

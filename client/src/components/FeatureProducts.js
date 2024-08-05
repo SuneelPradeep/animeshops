@@ -19,7 +19,7 @@ return (
                 <div className='intro-data'>
                     Check Now
                 </div>
-                <div className='common-header'> Our Featured Potraits </div>
+                <div className='common-header'> Our Featured Portraits </div>
                 <div className='grid grid-three-column'>
                     {
                     featuredProducts.map((item,id)=>(
